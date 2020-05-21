@@ -31,7 +31,7 @@ public class App {
             MessageAuthor msgAuthor = msg.getAuthor();
 
 
-            
+
             switch (msgContent) {
 
                 case ">off":
@@ -44,10 +44,11 @@ public class App {
                     break;
 
                 case ">join":
+                    join();
+                    break;
 
 
                     }
-
         });
     }
 
@@ -60,6 +61,10 @@ public class App {
             for (int o = 0; o < usr.size(); o++) {
                 ArrayList<Role> roles = new ArrayList<>(usr.get(o).getRoles(servers.get(i)));
 
+                for (int j = 0; j < roles.size(); j++) {
+
+
+                }
             }
             return;
         }
