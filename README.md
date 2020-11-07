@@ -1,4 +1,4 @@
 # MonoDiscord
 
 Java discord bot for Monopoly.
-Offline
+Offline project
